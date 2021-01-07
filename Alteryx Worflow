@@ -1,0 +1,2 @@
+We are building a multiple linear regression model
+That is, Price = B0 + B1carat + B2cut + B3colour + B4clarity
