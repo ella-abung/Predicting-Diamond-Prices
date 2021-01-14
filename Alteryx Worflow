@@ -1,2 +1,6 @@
 We are building a multiple linear regression model
 That is, Price = B0 + B1carat + B2cut + B3colour + B4clarity
+You can check out my Alteryx workflow file which is uploaded in this repository
+My predicted price was $11,764,788.643528, this prediction reflects the price at which 3000 diamonds would be sold to the final consumer
+but since the company generally purchases diamonds from distributors at 70% of the typical price predictions, 
+I will make a recommendation of $8,235,352 as the bidding price.
