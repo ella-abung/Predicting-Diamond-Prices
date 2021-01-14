@@ -1,6 +1,9 @@
-We are building a multiple linear regression model
+We are building a multiple linear regression model with the first data set(diamonds.csv). It contains 50,000 observations 5 variables including the price variable
 That is, Price = B0 + B1carat + B2cut + B3colour + B4clarity
 You can check out my Alteryx workflow file which is uploaded in this repository
+We would then make price predictions on the second dataset (new diamonds.csv). It has 3000 observations and 4 variables excluding the price variable. 
+After making price predictions on each observation in the second dataset, we would sum it up and calculate 70% of it in order to make a bidding price
+recommendation for our Jewelry Company
 My predicted price was $11,764,788.643528, this prediction reflects the price at which 3000 diamonds would be sold to the final consumer
 but since the company generally purchases diamonds from distributors at 70% of the typical price predictions, 
 I will make a recommendation of $8,235,352 as the bidding price.
